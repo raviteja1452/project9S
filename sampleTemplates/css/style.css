@@ -1,0 +1,414 @@
+html,
+body {
+    height: 100%;
+    min-height: 712px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+    min-height: 712px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#blue-navbar {
+    background-color: #713be2;
+    padding: 0px !important;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #713be2;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 100px !important;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer .text-right {
+    float: right;
+}
+
+#header-navbar {
+    background-color: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0;
+    color: white !important;
+    margin-bottom: 50px;
+}
+
+.white-color {
+    color: white !important;
+}
+
+.navbar {
+    padding: 10px 25px 5px 25px;
+    border: 0px;
+}
+
+.navbar-btn {
+    color: white;
+    background-color: #713be2;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+#dropdown-nav {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#dropdown-nav .container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-container {
+    text-align: center;
+}
+
+#bs-example-navbar-collapse-2 {
+    margin: auto
+}
+
+#bs-example-navbar-collapse-2 .dropdown {
+    min-width: 116px;
+}
+
+.recently-registered {
+    width: 80%;
+    color: #cee8ef;
+    margin: 20px;
+    display: inline-block;
+}
+
+.red {
+    color: #f57909;
+}
+
+
+/* Search*/
+
+.search-box {
+    margin: 80px;
+}
+
+.search-inner {
+    padding: 30px 0px;
+}
+
+.search-head {
+    font-size: 20px;
+}
+
+.search-inner .form-inline {
+    height: 60px;
+}
+
+.search-inner .form-group {
+    height: 60px;
+}
+
+.search-inner .form-control {
+    height: 60px;
+    min-width: 150px;
+}
+
+.search-inner #form-last {
+    width: 500px !important;
+}
+
+.search-inner .btn {
+    height: 60px;
+    width: 100px;
+}
+
+#welcome-container {
+    margin: 50px !important;
+}
+
+#feedback-container {
+    margin: 30px !important;
+}
+
+.pad-top {
+    padding-top: 100px;
+}
+
+.feedback-box {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding: 10px
+}
+
+
+/*Typeer*/
+
+.element-outer {
+    height: 70px;
+}
+
+.element {
+    color: #ffbd1d;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffbd1d;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    -ms-animation: blink 1s infinite;
+    -o-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+
+@-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Search*/
+
+#search-title {
+    margin-left: -20px;
+}
+
+.search-btn {
+    color: white;
+    background-color: #713be2;
+    font-weight: lighter;
+}
+
+.search-bar {
+    margin-left: 120px;
+    margin-top: 8px;
+}
+
+#Hsearch-local {
+    width: 100px;
+}
+
+#Hsearch-last {
+    width: 270px;
+}
+
+.search-bar .form-group {
+    margin-left: -3px;
+    font-weight: lighter;
+}
+
+#search-top {
+    height: 300px;
+}
+.big-well{
+    height:400px;
+    background: white;
+    text-align: center;
+}
+#search-body{
+    padding-top:30px;
+    padding-bottom:50px;
+}
+.doctor-div{
+    min-height:250px;
+    background-color:#fdfdfd;
+    border-radius:4px;
+    border:1px solid #f1eaff;
+}
+
+#blue-footer{
+    background-color:#713be2;
+}
+
+.doctor-div img,.profile-img img{
+    margin-top: 30px;
+    width: 110px;
+    height: 110px;
+    border: 1px solid #fbf3f3;
+    border-radius: 4px;
+}
+.profile-img img{
+    margin-top:40px;
+    width: 130px !important;
+    height: 130px !important; 
+}
+.image-div{
+    text-align:center;
+}
+#search-body a,#profile-body a{
+    color:#713be2;
+}
+.search-body-head{
+    letter-spacing: 0.5px;
+}
+.doct-desc{
+    padding:2px;
+    font-weight:600;
+}
+.doctor-desc-box{
+    padding:20px;
+}
+.apoint-btn{
+    color: white !important;
+    background: #713be2;
+    margin-top: 20px;
+}
+
+#profile-box{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#profile-body{
+    min-height: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #e4ebf9;
+    border-radius: 4px;
+}
+.green{
+    color:#1DD38F;
+}
+.blue{
+    color:#713be2;
+}
+.doct-span{
+    display: inline-block;
+    min-width:150px;
+    vertical-align: top;
+}
+.spec{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.doct-descri{
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin: 0 10px 10px 10px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px #b192f5 dashed;
+}
+.last{
+    border-bottom: 0px;
+}
+
+.doct-desc-head{
+    text-align: right;
+    padding: 0 20px;
+}
+.hosp-head{
+    margin: 10px 25px;
+}
+.hospital-box{
+    margin: 15px;
+    border: 1px solid #713be2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.hos-desc{
+    font-weight: 400;
+}
+.feed-desc-head{
+    text-align: right;
+}
+.feed-box{
+
+}
+.spaced{
+    padding:20px;
+}
+.spec-desc{
+    font-weight: 300;
+}
+.right-border{
+    border-right:1px solid #eee;
+}
